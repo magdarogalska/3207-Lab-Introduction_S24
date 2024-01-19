@@ -9,7 +9,7 @@ char randchar();
 char randchar(){
 
     int r = rand();
-    char randomletter = 'A' + (r% 26);
-    return randomletter;
+    char a = 'A' + (r% 26);
+    return a;
 }
 
